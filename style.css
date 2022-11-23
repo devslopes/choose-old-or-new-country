@@ -1,0 +1,25 @@
+.card {
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  margin: 50px;
+}
+
+.card img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.card .button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-container {
+  width: 100%;
+  border: 10px solid black;
+  min-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
